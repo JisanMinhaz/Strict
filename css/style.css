@@ -1,0 +1,446 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	font-family: 'Lato', sans-serif;
+	font-size: 14px;
+	line-height: 24px
+}
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Lato', sans-serif;
+}
+a, a:hover{
+	text-decoration: none;
+}
+.text-right {
+    text-align: right!important;
+    margin-top: 10px;
+}
+/****************************************************************
+---------------------- Global Css Code Start--------------------
+*****************************************************************/
+/*.container{
+	width: 1140px;
+	margin: 0px auto;
+}
+.row{
+	width: 100%;
+	float: left;
+}
+.col-12{
+	width: 100%;
+	float: left;
+}
+.col-4{
+	width: 33.33%;
+	float: left;
+}
+.col-6{
+	width: 50%;
+	float: left;
+}*/
+/****************************************************************
+---------------------- Global Css Code End--------------------
+*****************************************************************/
+
+/****************************************************************
+---------------------- Header Section Start--------------------
+*****************************************************************/
+.header-section{
+	width: 100%;
+	padding: 20px 0px;
+	background: #f6f9f9;
+}
+.logo{
+	width: 100%;
+}
+/*.nav{
+	width: 100%;
+	float:left;
+}
+.nav ul{
+	display: block;
+	margin-top: 10px;
+}
+.nav ul li{
+	display: inline-block;
+	list-style: none;
+}
+.nav ul li a{
+	font-size: 14px;
+	line-height: 24px;
+	text-align: right;
+	text-transform: capitalize;
+	font-weight: 700;
+	margin:0px 40px;
+	color: #999;
+}
+.nav ul li a:hover{
+	color: #15a4fa;
+}*/
+/****************************************************************
+---------------------- Header Section End--------------------
+*****************************************************************/
+
+/****************************************************************
+---------------------- Banner Section Start--------------------
+*****************************************************************/
+
+.banner-section{
+	width: 100%;
+	background: url("../images/Image.png");
+	background-position: center top;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 80px 0px;
+	
+}
+.banner-inner{
+	width: 100%;
+	text-align: center;
+	padding: 80px 0px;
+}
+.banner-inner h1{
+	font-size: 85px;
+	font-weight: 700;
+	color: #ffffff;
+/*	padding-bottom: 20px;*/
+}
+.banner-inner .divider{
+	width: 40%;
+	height: 2px;
+	background: #15a4fa;
+	margin: 20px auto;
+}
+.banner-inner p{
+	font-size: 13px;
+	font-weight: 400;
+	color: #ffffff;
+	text-align:center; 
+	margin-bottom: 50px;
+}
+.banner-inner .btn-info{
+	padding: 13px 32px;
+	background: transparent;
+	color: #ffffff;
+	border: 1px solid #15a4fa;
+	border-radius: 5px;
+	font-size: 13px;
+}
+.banner-inner .btn-info:hover{
+	background: #15a4fa;
+	transition: 2s;
+	color: #ffffff;
+}
+
+.banner-inner .arrow{
+	width: 100%;
+	margin-top: 40px;
+}
+.banner-inner .arrow .arrow-icon{
+	transform: translate(0px, 110px);
+
+}
+
+/****************************************************************
+---------------------- Banner Section End--------------------
+*****************************************************************/
+
+/****************************************************************
+---------------------- Simple & Pure Section Start-------------
+*****************************************************************/
+
+.simple-section{
+	width: 100%;
+	padding: 75px 0px;
+	background: #f6f9f9;
+	/*padding-bottom: 20px;*/
+}
+.simple-section .simple-inner{
+	width: 100%;
+	text-align: center;
+	/*padding: 50px 0px;*/
+}
+.simple-inner h1{
+	font-size: 27px;
+	font-weight: 400;
+	color: #2d3950;
+	padding-bottom: 20px;
+}
+.simple-inner p{
+	font-size: 13px;
+	line-height: 23px;
+	color: #999999;
+}
+
+/****************************************************************
+----------------------Simple & Pure Section Start----------------
+*****************************************************************/
+
+/****************************************************************
+----------------------Feature Section Start----------------
+*****************************************************************/
+.feature-section{
+	width: 100%;
+	padding: 55px 0px;
+	background: #ffffff;
+}
+.feature-section .feature-inner{
+	width: 100%;
+	text-align: center; 
+}
+.feature-inner h4{
+	font-size: 16px;
+	font-weight: 400;
+	color: #2d3950;
+	padding: 15px 0px;
+}
+.feature-inner p{
+	font-size: 13px;
+	line-height: 23px;
+	font-weight: 400;
+	color: #999999;
+}
+
+/****************************************************************
+----------------------Feature Section End----------------
+*****************************************************************/
+
+/****************************************************************
+----------------------Portfolio Section Start----------------
+*****************************************************************/
+.portfolio-section{
+	width: 100%;
+	background: #f6f9f9;
+	padding: 80px 0px;
+
+}
+.portfolio-section .title{
+	width: 100%;
+	text-align: center;
+	margin-bottom: 50px;
+}
+.portfolio-section .title h1{
+	font-size: 27px;
+	font-weight: 400;
+	color: #2d3950;
+	margin-bottom: 10px;
+	 
+}
+.portfolio-section .title p{
+	font-size: 13px;
+	line-height: 23px;
+	color: #999999;
+	font-weight: 400;
+}
+.portfolio-section .card {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    /* border: 1px solid rgba(0,0,0,.125); */
+    /* border-radius: 50px; */
+    margin-bottom: 25px;
+}
+
+.port-hover{
+	text-align: center;
+	width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    background: rgb(29,156,236, .6);
+    display: none;
+    transition: 2s;
+}
+.port-hover .icons{
+	position: absolute;
+	left: 36%;
+	top: 40%
+}
+.card:hover .port-hover{
+	transition: 2s;
+	display: block;
+}
+
+/****************************************************************
+----------------------Portfolio Section End----------------
+*****************************************************************/
+
+/****************************************************************
+----------------------Form Section Start----------------
+*****************************************************************/
+.form-section{
+	width: 100%;
+	padding: 80px 0px;
+	background: url("../images/login1.png");
+	background-position: center top;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.form-section .form-title{
+	width: 100%;
+	text-align: center; 
+	margin-bottom: 40px;
+}
+.form-section .form-title h1{
+	font-size: 27px;
+	line-height: 37px;
+	font-weight: 400;
+	color: #ffffff;
+	padding-bottom: 10px; 
+	
+}
+.form-section .form-title p{
+	font-size: 13px;
+	line-height: 23px;
+	color: #999999;
+	font-weight: 400;
+}
+.form-section .form-contant{
+	width: 100%;
+
+}
+.form-section .form-contant .form-body{
+	width: 100%;
+	margin: 25px 0px;
+}
+.form-section .form-contant .form-body .form-control{
+	width: 100%;
+	padding: 20px;
+	margin: 10px 0px;
+	border: 1px solid #999;
+    border-radius: 4px;
+    color: #84868a; 
+    /*font-size: 13px;
+    font-weight: 400;
+    line-height: 23px;*/
+    background: transparent;
+ 
+
+    
+}
+.form-section .form-contant .form-body span{
+	color: #fff;
+	font-size: 14px;
+	margin-left: 10px;
+	
+}
+
+.form-section .form-contant .form-body textarea{
+	height: 180px;
+	border: 1px solid #999;
+	border-radius: 4px;
+    color: #84868a;
+    resize: none;
+    background: transparent;
+}
+.form-section .form-contant .form-body .chkbx{
+	margin: 12px 0px;
+}
+::placeholder{
+	padding: 5px 0px 5px 15px;
+}
+textarea::placeholder{
+	padding-top: 15px;
+}
+	
+.form-section .form-contant .form-body .btn-info{
+	padding: 12px 41px;
+    background: transparent;
+    color: #ffffff;
+    border: 1px solid #15a4fa;
+    border-radius: 3px;
+    font-size: 13px;
+    line-height: 23px;
+    margin-right: 0%;
+    text-decoration: none;
+
+}
+.form-section .form-contant .form-body .btn-info:hover{
+	background: #15a4fa;
+	transition: 2s;
+	color: #ffffff;
+}
+
+/****************************************************************
+----------------------Form Section End----------------
+*****************************************************************/
+
+/****************************************************************
+----------------------Footer Section Start----------------
+*****************************************************************/
+.footer-section{
+	width: 100%;
+	background: #f6f9f9;
+	padding: 20px 0px;
+
+}
+
+.footer-section .social-icon{
+	width: 100%;
+	text-align:right;
+
+}
+.s-icon{
+	width: 100%;
+
+}
+.s-icon li{
+	list-style: none;
+	display: inline-block;
+
+}
+.s-icon li a{
+	text-align: center;
+
+}
+.s-icon li a .fa{
+    width: 40px;
+    height: 40px;
+    line-height: 10px;
+    background: #fff;
+    color: #15a4fa;
+    font-size: 12px;
+    padding: 15px;
+    border-radius: 2px;
+	
+}
+
+.s-icon li a .fa-facebook:hover{
+	background: #15a4fa;
+	transition: 2s;
+	color: #fff;
+}
+.s-icon li a .fa-twitter:hover{
+	background: #15a4fa;
+	transition: 2s;
+	color: #fff;
+}
+.s-icon li a .fa-google-plus:hover{
+	background: #15a4fa;
+	transition: 2s;
+	color: #fff;
+}
+.s-icon li a .fa-linkedin:hover{
+	background: #15a4fa;
+	transition: 2s;
+	color: #fff;
+}
+.copy-right p{
+	font-size: 13px;
+	line-height: 23px;
+	color: #999999;
+	font-weight: 400;
+	margin: 10px 0px;
+}
+/****************************************************************
+----------------------FooterSection End----------------
+*****************************************************************/
